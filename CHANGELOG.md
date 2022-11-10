@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [0.0.3] 2022-11-10
+### Fixes
+
+- Patch the `MANIFEST`
+
 ## [0.0.2] 2022-11-10
 ### Improvements
 

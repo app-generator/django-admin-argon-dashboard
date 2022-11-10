@@ -96,8 +96,6 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
     path('dashboard/', views.dashboard, name="dashboard")
 ```
 
-- Type the path manually in browser or make sidebar `href` dynamic.
-
 <br />
 
 ## Screenshots

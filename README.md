@@ -91,7 +91,7 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 - Create urls.py file and map the function to the urls.py file.
 
-Sample
+> Sample
 
 ```python
     path('dashboard/', views.dashboard, name="dashboard")

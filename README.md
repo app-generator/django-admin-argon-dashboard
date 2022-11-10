@@ -80,7 +80,20 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## How to use it for common users
 
-> @ToDO 
+- Create view functions for a particular pages and render the html template.
+### Ex.
+```python
+    def dashboard(request):
+        return render(request, 'pages/dashboard.html')
+```
+
+- Create urls.py file and map the function to the urls.py file.
+### Ex.
+```python
+    path('dashboard/', views.dashboard, name="dashboard")
+```
+
+- Type the path manually in browser or make sidebar `href` dynamic.
 
 
 <br />

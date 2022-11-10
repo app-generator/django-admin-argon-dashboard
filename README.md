@@ -78,6 +78,13 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 <br />
 
+## How to use it for common users
+
+> @ToDO 
+
+
+<br />
+
 ## Screenshots
 
 @ToDo

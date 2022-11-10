@@ -8,7 +8,7 @@ Modern template for **Django Admin Interface** coded on top of **Argon Dashboard
 
 **Links & Resources**
 
-- [Django Argon Dashboard](https://appseed.us/product/argon-dashboard/django/) - free starter with the same design
+- UI Kit: [Argon Dashboard BS5](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200) `v2.0.4`
 - [Django Argon Dashboard](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo
 - [Django Argon Dashboard](https://github.com/app-generator/django-argon-theme-playground) - `playground project` 
 

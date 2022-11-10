@@ -98,6 +98,17 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 <br />
 
+>  Available pages 
+
+- `dashboard.html`
+- `billing.html`
+- `profile.html`
+- `rtl.html`
+- `tables.html`
+- `virtual-reality.html`
+
+<br />
+
 ## Screenshots
 
 > **Django Admin Theme**: `Edit users`

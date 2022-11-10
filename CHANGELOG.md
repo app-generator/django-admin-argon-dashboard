@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.0] 2022-11-10
+### STABLE_VERSION
+
+- Flag stable version
+
 ## [0.0.3] 2022-11-10
 ### Fixes
 

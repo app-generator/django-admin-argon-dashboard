@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='django-admin-argon-dashboard',
-version='0.0.3',
+version='1.0.0',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,

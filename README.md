@@ -81,18 +81,16 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## How to use it for common users
 
-- Create view functions for a particular pages and render the html template.
-
-> Sample
+> `Create view functions` for a particular pages and render the html template.
 
 ```python
     def dashboard(request):
         return render(request, 'pages/dashboard.html')
 ```
 
-- Create urls.py file and map the function to the urls.py file.
+<br />
 
-> Sample
+> Create `urls.py` file and map the function to the `urls.py` file.
 
 ```python
     path('dashboard/', views.dashboard, name="dashboard")

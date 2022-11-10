@@ -124,4 +124,4 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 <br />
 
 ---
-**[Django Admin Material](https://github.com/app-generator/django-admin-argon-dashboard)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+**[Django Admin Argon](https://github.com/app-generator/django-admin-argon-dashboard)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**

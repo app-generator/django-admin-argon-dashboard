@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.1] 2022-11-10
+### Fixes
+
+- Fix link on `README`
+
 ## [1.0.0] 2022-11-10
 ### STABLE_VERSION
 

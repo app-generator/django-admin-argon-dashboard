@@ -45,7 +45,7 @@ $ pip install git+https://github.com/app-generator/django-admin-argon-dashboard.
 ```python
     INSTALLED_APPS = (
         ...
-        'admin_material.apps.AdminMaterialDashboardConfig',
+        'admin_argon.apps.AdminArgonConfig',
         'django.contrib.admin',
     )
 ```
@@ -81,20 +81,23 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 ## How to use it for common users
 
 - Create view functions for a particular pages and render the html template.
-### Ex.
+
+> Sample
+
 ```python
     def dashboard(request):
         return render(request, 'pages/dashboard.html')
 ```
 
 - Create urls.py file and map the function to the urls.py file.
-### Ex.
+
+Sample
+
 ```python
     path('dashboard/', views.dashboard, name="dashboard")
 ```
 
 - Type the path manually in browser or make sidebar `href` dynamic.
-
 
 <br />
 

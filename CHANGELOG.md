@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.4] 2022-11-11
+### Fixes
+
+- Update links (minor)
+
 ## [1.0.3] 2022-11-10
 ### Fixes
 

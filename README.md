@@ -41,7 +41,7 @@ $ pip install git+https://github.com/app-generator/django-admin-argon-dashboard.
 
 <br />
 
-> Add `admin_material` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
+> Add `admin_argon` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
     INSTALLED_APPS = (

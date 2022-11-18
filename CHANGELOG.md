@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.5] 2022-11-18
+### PROMO
+
+- [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
 ## [1.0.4] 2022-11-11
 ### Fixes
 

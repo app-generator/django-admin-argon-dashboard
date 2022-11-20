@@ -1,6 +1,12 @@
 # CHANGELOG
 
-## [1.0.6] 2022-11-11
+## [1.0.7] 2022-11-20
+### Fixes
+
+- Fix sidebar & RTL Layout
+- NOTE: `1.0.6` is broken
+
+## [1.0.6] 2022-11-20
 ### Improvements
 
 - Integrate all pages for `Django.contrib.AUTH`

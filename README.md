@@ -57,6 +57,19 @@ $ pip install git+https://github.com/app-generator/django-admin-argon-dashboard.
 
 <br />
 
+> Add `admin_argon` urls in your Django Project `urls.py` file.
+
+```python
+    from django.urls import path, include
+
+    urlpatterns = [
+        ...
+        path('', include('admin_argon.urls')),
+    ]
+```
+
+<br />
+
 > **Collect static** if you are in `production environment`:
 
 ```bash

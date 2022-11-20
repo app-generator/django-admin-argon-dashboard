@@ -68,6 +68,19 @@ $ pip install git+https://github.com/app-generator/django-admin-argon-dashboard.
     ]
 ```
 
+Here are the available `links`: 
+
+```python
+
+    path('', views.index, name='index'),
+    path('billing/', views.billing, name='billing'),
+    path('profile/', views.profile, name='profile'),
+    path('tables/',  views.tables,  name='tables' ),
+    path('rtl/',     views.rtl,     name='rtl'    ),
+    path('vr/',      views.vr,      name='vr'     ),
+    
+```
+
 <br />
 
 > **Collect static** if you are in `production environment`:

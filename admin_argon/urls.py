@@ -5,6 +5,11 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('billing/', views.billing, name='billing'),
+    path('profile/', views.profile, name='profile'),
+    path('tables/',  views.tables,  name='tables' ),
+    path('rtl/',     views.rtl,     name='rtl'    ),
+    path('vr/',      views.vr,      name='vr'     ),
 
     # Authentication
     path('accounts/login/', views.UserLoginView.as_view(), name='login'),

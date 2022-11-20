@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.6] 2022-11-11
+### Improvements
+
+- Integrate all pages for `Django.contrib.AUTH`
+- Integrate all theme links
+
 ## [1.0.5] 2022-11-18
 ### PROMO
 

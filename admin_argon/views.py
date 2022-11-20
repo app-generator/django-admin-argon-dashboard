@@ -8,6 +8,20 @@ from django.contrib.auth import logout
 def index(request):
   return render(request, 'pages/dashboard.html')
 
+def billing(request):
+  return render(request, 'pages/billing.html')
+
+def profile(request):
+  return render(request, 'pages/profile.html')
+
+def tables(request):
+  return render(request, 'pages/tables.html')
+
+def rtl(request):
+  return render(request, 'pages/rtl.html')
+
+def vr(request):
+  return render(request, 'pages/virtual-reality.html')
 
 def register(request):
   if request.method == 'POST':

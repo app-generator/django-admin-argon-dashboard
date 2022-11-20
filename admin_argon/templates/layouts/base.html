@@ -49,9 +49,14 @@
 
 <body class="g-sidenav-show bg-gray-100">
     {% block overlay %}{% endblock overlay %}
-    {% include "includes/sidebar.html" %}
+    {% block sidebar %} 
+      {% include "includes/sidebar.html" %}
+    {% endblock sidebar %}
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        {% include "includes/navigation.html" %} 
+        {% block navigation %}
+          {% include "includes/navigation.html" %} 
+        {% endblock navigation %}
+        
         {% block content %}{% endblock content %}
     </main>
     <!-- APP Configurator -->

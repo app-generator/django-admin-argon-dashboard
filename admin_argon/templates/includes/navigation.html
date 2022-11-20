@@ -19,24 +19,38 @@
       </div>
       <ul class="navbar-nav  justify-content-end">
         {% if request.user.is_authenticated %}
-        <li class="nav-item d-flex align-items-center">
-          <a href="{% url 'admin:logout' %}" class="nav-link text-white font-weight-bold px-0">
-            <i class="fa fa-user me-sm-1"></i>
-            <span class="d-sm-inline d-none me-3">Logout</span>
-          </a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a href="{% url 'admin:password_change' %}" class="nav-link text-white font-weight-bold px-0">
-            <span class="d-sm-inline d-none">Change Password</span>
-          </a>
-        </li>
+          {% if request.user.is_superuser %}
+            <li class="nav-item d-flex align-items-center">
+              <a href="{% url 'admin:logout' %}" class="nav-link text-white font-weight-bold px-0">
+                <i class="fa fa-user me-sm-1"></i>
+                <span class="d-sm-inline d-none me-3">Logout</span>
+              </a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a href="{% url 'admin:password_change' %}" class="nav-link text-white font-weight-bold px-0">
+                <span class="d-sm-inline d-none">Change Password</span>
+              </a>
+            </li>
+          {% else %}
+            <li class="nav-item d-flex align-items-center">
+              <a href="{% url 'logout' %}" class="nav-link text-white font-weight-bold px-0">
+                <i class="fa fa-user me-sm-1"></i>
+                <span class="d-sm-inline d-none me-3">Logout</span>
+              </a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a href="{% url 'password_change' %}" class="nav-link text-white font-weight-bold px-0">
+                <span class="d-sm-inline d-none">Change Password</span>
+              </a>
+            </li>
+          {% endif %}
         {% else %}
-        <li class="nav-item d-flex align-items-center">
-          <a href="{% url 'admin:index' %}" class="nav-link text-white font-weight-bold px-0">
-            <i class="fa fa-user me-sm-1"></i>
-            <span class="d-sm-inline d-none">Sign In</span>
-          </a>
-        </li>
+          <li class="nav-item d-flex align-items-center">
+            <a href="{% url 'login' %}" class="nav-link text-white font-weight-bold px-0">
+              <i class="fa fa-user me-sm-1"></i>
+              <span class="d-sm-inline d-none">Sign In</span>
+            </a>
+          </li>
         {% endif %}
         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
           <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">

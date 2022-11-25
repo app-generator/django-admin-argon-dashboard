@@ -12,6 +12,14 @@ Modern template for **Django Admin Interface** coded on top of **Argon Dashboard
 - [Django Argon Dashboard](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo
 - [Django Argon Dashboard](https://github.com/app-generator/django-admin-argon-dashboard_p) - `playground project` 
 
+<br>
+
+## `Video Presentation`
+
+> This material provides `more information` about this library and the `playground project`. 
+
+[![Django Theme Material Kit - Video Presentation.](https://user-images.githubusercontent.com/51070104/203936766-d77198c1-90e6-4fd3-83ba-3f74b9dc6fe9.png)](https://www.youtube.com/watch?v=UFAXMAahb3U)
+
 <br />
 
 ## Why `Django Argon Design`

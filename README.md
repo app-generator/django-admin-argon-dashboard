@@ -10,7 +10,7 @@ Modern template for **Django Admin Interface** coded on top of **Argon Dashboard
 
 - UI Kit: [Argon Dashboard BS5](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200) `v2.0.4` by Creative-Tim
 - [Django Argon Dashboard](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo
-- [Django Argon Dashboard](django-admin-argon-dashboard_p) - `playground project` 
+- [Django Argon Dashboard](https://github.com/app-generator/django-admin-argon-dashboard_p) - `playground project` 
 
 <br />
 

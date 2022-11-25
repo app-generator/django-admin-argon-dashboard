@@ -145,13 +145,18 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## Screenshots
 
-> **Django Admin Theme**: `Edit users`
+Start your development with a Freebie Dashboard for [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/). Argon is a completly new product built on our newest re-built from scratch framework structure that is meant to make our products more intuitive and much easier to customize. 
+Argon Dashboard is built with over 70 individual components, giving you the freedom of choosing and combining. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
+<br /> 
+
+> **[Django Admin Argon](https://github.com/app-generator/django-admin-argon-dashboard)**: `Edit users`
 
 ![django-admin-argon-users-min](https://user-images.githubusercontent.com/51070104/201162283-90fb0637-687e-4926-ab12-bf409491dac6.jpg)
 
 <br />
 
-> **Django Admin Theme**: `Dashboard` page
+> **[Django Admin Argon](https://github.com/app-generator/django-admin-argon-dashboard)**: `Dashboard` page
 
 ![django-admin-argon-dashboard-min](https://user-images.githubusercontent.com/51070104/201162509-80df6786-e595-4fca-a570-45f6a4438c24.jpg) 
 

@@ -10,7 +10,7 @@ Modern template for **Django** that covers `Admin Section`, all authentication p
 
 - [Django Admin Argon](https://appseed.us/product/argon-dashboard/django/) - `Product page`
   - `Features`: Fully-configured, `CI/CD` via Render
-- UI Kit: [Material Dashboard BS5](https://www.creative-tim.com/product/material-dashboard?AFFILIATE=128200) `v3.0.5` by Creative-Tim
+- UI Kit: [Argon Dashboard BS5](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200) `v2.0.4` by Creative-Tim
 
 <br />
 

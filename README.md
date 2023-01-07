@@ -14,9 +14,7 @@ Modern template for **Django** that covers `Admin Section`, all authentication p
 
 <br />
 
-![image](https://user-images.githubusercontent.com/51070104/211161884-56ef77d2-1e5a-4269-a148-7ac4a5482e0c.png)
-
-![Argon Dashboard 2](https://user-images.githubusercontent.com/51070104/183684596-4b29a886-f13d-4da5-98d3-12b5b90df47f.png)
+![Argon Dashboard 2](https://user-images.githubusercontent.com/51070104/211161884-56ef77d2-1e5a-4269-a148-7ac4a5482e0c.png)
 
 <br />
 

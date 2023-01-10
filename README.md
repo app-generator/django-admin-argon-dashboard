@@ -11,7 +11,12 @@ Modern template for **Django** that covers `Admin Section`, all authentication p
 - [Django Admin Argon](https://appseed.us/product/argon-dashboard/django/) - `Product page`
   - `Features`: Fully-configured, `CI/CD` via Render
 - UI Kit: [Argon Dashboard BS5](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200) `v2.0.4` by Creative-Tim
-
+- **Sections Covered**: 
+  - `Admin Section`, reserved for `superusers`
+  - `All pages` managed by `Django.contrib.AUTH`
+  - `Registration` page
+  - `Misc pages`: colors, icons, typography, blank-page 
+  
 <br />
 
 ![Argon Dashboard 2](https://user-images.githubusercontent.com/51070104/211161884-56ef77d2-1e5a-4269-a148-7ac4a5482e0c.png)

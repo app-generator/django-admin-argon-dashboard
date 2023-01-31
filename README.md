@@ -8,7 +8,7 @@ Modern template for **Django** that covers `Admin Section`, all authentication p
 
 **Links & Resources**
 
-- [Django Admin Argon](https://appseed.us/product/argon-dashboard/django/) - `Product page`
+- [Django Admin Argon](https://appseed.us/product/argon-dashboard/django/) - `Product` that uses the library
   - `Features`: Fully-configured, `CI/CD` via Render
 - UI Kit: [Argon Dashboard BS5](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200) `v2.0.4` by Creative-Tim
 - **Sections Covered**: 
@@ -19,7 +19,7 @@ Modern template for **Django** that covers `Admin Section`, all authentication p
   
 <br />
 
-![Argon Dashboard 2](https://user-images.githubusercontent.com/51070104/211161884-56ef77d2-1e5a-4269-a148-7ac4a5482e0c.png)
+![Argon Dashboard 2 - Free Starter.](https://user-images.githubusercontent.com/51070104/215804889-94eba681-8262-41a3-8e57-7d5b12dcc209.png)
 
 <br />
 
@@ -69,19 +69,6 @@ $ pip install git+https://github.com/app-generator/django-admin-argon-dashboard.
     ]
 ```
 
-Here are the available `links`: 
-
-```python
-
-    path('', views.index, name='index'),
-    path('billing/', views.billing, name='billing'),
-    path('profile/', views.profile, name='profile'),
-    path('tables/',  views.tables,  name='tables' ),
-    path('rtl/',     views.rtl,     name='rtl'    ),
-    path('vr/',      views.vr,      name='vr'     ),
-    
-```
-
 <br />
 
 > **Collect static** if you are in `production environment`:
@@ -110,33 +97,53 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 <br />
 
-## How to use it for common users
+## How to Customize 
 
-> `Create view functions` for a particular pages and render the html template.
+When a template file is loaded in the controller, `Django` scans all template directories starting from the ones defined by the user, and returns the first match or an error in case the template is not found. 
+The  theme used to style this starter provides the following files: 
 
-```python
-    def dashboard(request):
-        return render(request, 'pages/dashboard.html')
+```bash
+< LIBRARY_ROOT >                      # This exists in ENV: LIB/admin_argon
+   |
+   |-- templates/                     # Root Templates Folder 
+   |    |          
+   |    |-- accounts/       
+   |    |    |-- sign-in.html         # Sign IN Page
+   |    |    |-- sign-up.html         # Sign UP Page
+   |    |
+   |    |-- includes/       
+   |    |    |-- footer.html          # Footer component
+   |    |    |-- sidebar.html         # Sidebar component
+   |    |    |-- navigation.html      # Navigation Bar
+   |    |    |-- scripts.html         # Scripts Component
+   |    |
+   |    |-- layouts/       
+   |    |    |-- base.html            # Masterpage
+   |    |    |-- base-fullscreen.html # Masterpage for Auth Pages
+   |    |
+   |    |-- pages/       
+   |         |-- dashboard.html       # Dashboard page
+   |         |-- profile.html         # Settings  Page
+   |         |-- *.html               # All other pages
+   |    
+   |-- ************************************************************************
 ```
 
-<br />
+When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
 
-> Create `urls.py` file and map the function to the `urls.py` file.
+For instance, if we want to customize the `footer.html` these are the steps:
 
-```python
-    path('dashboard/', views.dashboard, name="dashboard")
-```
+- `Step 1`: create the `templates` DIRECTORY inside your app 
+- `Step 2`: configure the project to use this new template directory
+  - Edit `settings.py` TEMPLATES section 
+- `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `YOUR_APP/templates` DIR
+  - Source PATH: `<YOUR_ENV>/LIB/admin_argon/includes/footer.html`
+  - Destination PATH: `YOUR_APP/templates/includes/footer.html`
+- Edit the footer (Destination PATH)    
 
-<br />
+At this point, the default version of the `footer.html` shipped in the library is ignored by Django.
 
->  Available pages 
-
-- `dashboard.html`
-- `billing.html`
-- `profile.html`
-- `rtl.html`
-- `tables.html`
-- `virtual-reality.html`
+In a similar way, all other files and components can be customized easily.
 
 <br />
 
@@ -147,7 +154,7 @@ This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bo
 > Features: 
 
 - `Up-to-date Dependencies`
-- `Design`: [Django Theme Argon2](https://github.com/app-generator/django-argon-dashboard2-pro) - `PRO Version`
+- `Design`: Django Theme Argon2 - `PRO Version`
 - `Sections` covered by the design:
   - **Admin section** (reserved for superusers)
   - **Authentication**: `Django.contrib.AUTH`, Registration

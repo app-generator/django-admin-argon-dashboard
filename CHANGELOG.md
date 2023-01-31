@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.16] 2023-01-31
+### Changes
+
+- Fix broken Footer (text)
+
 ## [1.0.15] 2023-01-31
 ### Changes
 

@@ -1,6 +1,6 @@
 # [Django Admin Argon](https://appseed.us/product/argon-dashboard/django/)
 
-Modern template for **Django** that covers `Admin Section`, all authentication pages (registration included) crafted on top of **[Argon Dashboard](https://appseed.us/product/argon-dashboard/django/)**, an open-source `Bootstrap 5` design from `Creative-Tim`.
+Modern template for **Django** that covers `Admin Section`, all authentication pages (registration included) crafted on top of **[Argon Dashboard](https://appseed.us/product/argon-dashboard/django/)**, an open-source `Bootstrap 5` design from [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200).
 
 > Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 

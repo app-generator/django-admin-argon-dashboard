@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.0.17] 2024-11-13
+### Changes
+
+- Update RM links 
+  - [Django Admin Argon](https://app-generator.dev/docs/products/django-libs/theme-argon-dashboard.html) - **Documentation** & Support Links
+  - [Django Argon Dashboard](https://app-generator.dev/product/argon-dashboard/django/) - The product that uses the library
+  - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - Learn how to code **Django** Projects
+
 ## [1.0.16] 2023-01-31
 ### Changes
 

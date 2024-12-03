@@ -6,22 +6,22 @@ from django.contrib.auth import logout
 # Create your views here.
 
 def index(request):
-  return render(request, 'pages/dashboard.html')
+  return render(request, 'pages/dashboard.html', {'segment': 'dashboard'})
 
 def billing(request):
-  return render(request, 'pages/billing.html')
+  return render(request, 'pages/billing.html', {'segment': 'billing'})
 
 def profile(request):
-  return render(request, 'pages/profile.html')
+  return render(request, 'pages/profile.html', {'segment': 'profile'})
 
 def tables(request):
-  return render(request, 'pages/tables.html')
+  return render(request, 'pages/tables.html', {'segment': 'tables'})
 
 def rtl(request):
-  return render(request, 'pages/rtl.html')
+  return render(request, 'pages/rtl.html', {'segment': 'rtl'})
 
 def vr(request):
-  return render(request, 'pages/virtual-reality.html')
+  return render(request, 'pages/virtual-reality.html', {'segment': 'vr'})
 
 def register(request):
   if request.method == 'POST':

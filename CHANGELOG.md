@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.19] 2024-12-04
+### Changes
+
+- Update Links (minor) 
+
 ## [1.0.18] 2024-12-04
 ### Changes
 

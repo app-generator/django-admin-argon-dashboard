@@ -19,7 +19,7 @@ Modern template for **[Django Admin](https://app-generator.dev/docs/products/dja
   
 <br />
 
-![Django Argon Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap Design.](https://user-images.githubusercontent.com/51070104/215804889-94eba681-8262-41a3-8e57-7d5b12dcc209.png)
+![Django Argon Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap Design.](https://github.com/user-attachments/assets/f2a12c84-e752-4c36-bb90-7bf7cf63b80c)
 
 <br />
 

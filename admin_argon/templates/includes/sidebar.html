@@ -6,7 +6,7 @@
       <a class="navbar-brand m-0" href="/">
         <img src="{% static "assets/img/logo-ct-dark.png" %}" width="26px" height="26px" class="navbar-brand-img h-100" alt="main_logo">
         <span class="ms-1 font-weight-bold">
-          D
+          Django Argon
         </span>
       </a>
     </div>
@@ -92,6 +92,7 @@
         <li class="nav-item mt-3">
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account pages</h6>
         </li>
+        {% if request.user.is_authenticated %}
         <li class="nav-item">
           <a class="nav-link {% if segment == 'profile' %}active{% endif %}" href="{% url "profile" %}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -100,6 +101,7 @@
             <span class="nav-link-text ms-1">Profile</span>
           </a>
         </li>
+        {% else %}
         <li class="nav-item">
           <a class="nav-link " href="{% url "login" %}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -116,6 +118,7 @@
             <span class="nav-link-text ms-1">Sign Up</span>
           </a>
         </li>
+        {% endif %}
       </ul>
     </div>
     <div class="sidenav-footer mx-3 ">

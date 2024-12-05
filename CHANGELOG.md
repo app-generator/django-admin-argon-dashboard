@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.21] 2024-12-05
+### Changes
+
+- Update Media (product thumb image)
+
 ## [1.0.20] 2024-12-05
 ### Changes
 

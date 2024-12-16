@@ -19,6 +19,22 @@ Modern template for **[Django Admin](https://app-generator.dev/docs/products/dja
   
 <br />
 
+### Build a Starter with [Django App Generator - Argon Design](https://app-generator.dev/tools/django-generator/argon/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select **Argon Dashboard** as the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+<br />
+
 ![Django Argon Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap Design.](https://github.com/user-attachments/assets/f2a12c84-e752-4c36-bb90-7bf7cf63b80c)
 
 <br />

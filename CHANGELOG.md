@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.22] 2024-12-16
+### Changes
+
+- Mention [Django App Generator - Argon Design](https://app-generator.dev/tools/django-generator/argon/)
+
 ## [1.0.21] 2024-12-05
 ### Changes
 

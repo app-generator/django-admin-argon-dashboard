@@ -8,15 +8,15 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='django-admin-argon-dashboard',
-version='1.0.22',
+version='1.0.23',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
-description='Modern KIT for Django Admin Section - Argon BS5',
+description='Modern template for Django Admin - Argon Dashboard Design',
 long_description=README,
 long_description_content_type="text/markdown",
-url='https://appseed.us/product/argon-dashboard/django/',
-author='AppSeed.us',
+url='https://app-generator.dev/product/argon-dashboard/',
+author='App-Generator.dev',
 author_email='support@appseed.us',
 license='MIT License',
 classifiers=[

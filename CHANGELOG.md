@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.0.24] 2025-05-18
+### Changes
+
+- Remove Admin Pages
+- Update RM Links - Starters Section
+  - [Django Argon Dashboard](https://app-generator.dev/product/argon-dashboard/django/) - Free Starter
+  - [Django Argon Dashboard PRO](https://app-generator.dev/product/argon-dashboard-pro/django/) - Premium SaaS Starter
+
 ## [1.0.23] 2025-04-19
 ### Changes
 

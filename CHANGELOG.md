@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.25] 2025-05-18
+### Changes
+
+- Remove ADMIN links from sidebar (minor)
+
 ## [1.0.24] 2025-05-18
 ### Changes
 
